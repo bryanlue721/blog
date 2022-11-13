@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Bryan Lue',
 
   // open graph metadata (optional)
-  description: 'Hello! I am Bryan, a student based in Kuala Lumpur, Malaysia. On this site I will be sharing my opinions on various world events, technology related tips, and various interesting ideas. ',
+  description: 'Personal site of Bryan Lue',
 
   // social usernames (optional)
   twitter: 'bryanlue721',
