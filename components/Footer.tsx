@@ -115,6 +115,18 @@ export function FooterImpl() {
           </a>
         )}
 
+{config.instagram && (
+          <a
+            className={styles.instagram}
+            href={`https://www.instagram.com/${config.instagram}`}
+            title={`Instagram ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaInstagram />
+          </a>
+        )}
+
         {config.newsletter && (
           <a
             className={styles.newsletter}
@@ -136,18 +148,6 @@ export function FooterImpl() {
             rel='noopener noreferrer'
           >
             <FaYoutube />
-          </a>
-        )}
-
-        {config.instagram && (
-          <a
-            className={styles.instagram}
-            href={`https://www.instagram.com/${config.instagram}`}
-            title={`Instagram ${config.author}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaInstagram />
           </a>
         )}
         
