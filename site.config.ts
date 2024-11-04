@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '5eeade4c-80c2-40be-a279-f1fb759b565b',
 
   // basic site info (required)
   name: 'Bryan Lue',
@@ -17,10 +17,10 @@ export default siteConfig({
   description: 'Personal site of Bryan Lue',
 
   // social usernames (optional)
-  twitter: 'bryanlue721',
-  github: 'bryanlue721',
-  newsletter: 'https://newsletters.bryanlue.me/',
+  linkedin: 'bryanlue',
+  instagram: 'bryanlue721'
   youtube: '@bryanlue721',
+
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
