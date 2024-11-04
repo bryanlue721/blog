@@ -58,6 +58,8 @@
     "rss": "^1.2.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.14.0",
     "@fisch0920/eslint-config": "^1.4.0",
     "@next/bundle-analyzer": "^15.0.2",
     "@types/node": "^22.8.6",
