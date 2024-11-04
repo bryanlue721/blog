@@ -17,6 +17,7 @@ export default siteConfig({
   description: 'Personal site of Bryan Lue',
 
   // social usernames (optional)
+  newsletter: "https://newsletters.bryanlue.me",
   linkedin: 'bryanlue',
   instagram: 'bryanlue721',
   youtube: '@bryanlue721',

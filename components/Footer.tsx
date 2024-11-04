@@ -38,7 +38,7 @@ export function FooterImpl() {
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>
-        Copyright {currentYear} {config.author}
+        © {currentYear} {config.author}. Made with 💕 in KL, 🇲🇾.  
       </div>
 
       <div className={styles.settings}>
@@ -103,6 +103,18 @@ export function FooterImpl() {
           </a>
         )}
 
+        {config.newsletter && (
+          <a
+            className={styles.newsletter}
+            href={`${config.newsletter}`}
+            title={`Newsletter ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaEnvelopeOpenText />
+          </a>
+        )}
+
         {config.linkedin && (
           <a
             className={styles.linkedin}
@@ -115,7 +127,7 @@ export function FooterImpl() {
           </a>
         )}
 
-{config.instagram && (
+        {config.instagram && (
           <a
             className={styles.instagram}
             href={`https://www.instagram.com/${config.instagram}`}
@@ -124,18 +136,6 @@ export function FooterImpl() {
             rel='noopener noreferrer'
           >
             <FaInstagram />
-          </a>
-        )}
-
-        {config.newsletter && (
-          <a
-            className={styles.newsletter}
-            href={`${config.newsletter}`}
-            title={`Newsletter ${config.author}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaEnvelopeOpenText />
           </a>
         )}
 
