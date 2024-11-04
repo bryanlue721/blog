@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   linkedin: 'bryanlue',
-  instagram: 'bryanlue721'
+  instagram: 'bryanlue721',
   youtube: '@bryanlue721',
 
   // newsletter: '#', // optional newsletter URL
